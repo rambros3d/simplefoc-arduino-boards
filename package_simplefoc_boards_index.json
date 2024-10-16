@@ -1,0 +1,61 @@
+{
+    "packages": [
+        {
+            "name": "simplefoc_boards",
+            "maintainer": "Simple FOC Contributors",
+            "websiteURL": "https://www.simplefoc.com/",
+            "email": "hello@twynfish.com",
+            "help": {
+                "online": "https://github.com/rambros3d/simplefoc-arduino-boards"
+            },
+            "platforms": [
+                {
+                    "name": "SimpleFOC STM32 Boards",
+                    "architecture": "stm32",
+                    "version": "1.0.0",
+                    "category": "Contributed",
+                    "url": "https://.tar.bz2",
+                    "archiveFileName": "simplefoc-stm32-boards-1.0.0.tar.bz2",
+                    "checksum": "SHA-256:value",
+                    "size": "value",
+                    "boards": [
+                        {
+                            "name": "MicroSpora - G431"
+                        },
+                        {
+                            "name": "Lepton V2 - G031"
+                        }
+                    ],
+                    "toolsDependencies": [
+                        {
+                            "packager": "STMicroelectronics",
+                            "name": "xpack-arm-none-eabi-gcc",
+                            "version": "13.2.1-1.1"
+                        },
+                        {
+                            "packager": "STMicroelectronics",
+                            "name": "xpack-openocd",
+                            "version": "0.12.0-3"
+                        },
+                        {
+                            "packager": "STMicroelectronics",
+                            "name": "STM32Tools",
+                            "version": "2.2.3"
+                        },
+                        {
+                            "packager": "STMicroelectronics",
+                            "name": "CMSIS",
+                            "version": "5.9.0"
+                        },
+                        {
+                            "packager": "STMicroelectronics",
+                            "name": "STM32_SVD",
+                            "version": "1.15.1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "tools": []
+}
